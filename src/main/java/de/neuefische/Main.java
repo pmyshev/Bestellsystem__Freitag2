@@ -32,8 +32,6 @@ public class Main {
             System.out.println(e.getMessage());;
         }
 
-
-
 //      Warenkorb - Leon
         ArrayList<Product> warenkorb1 = new ArrayList<>();
         warenkorb1.add(oatmeal);
@@ -45,8 +43,8 @@ public class Main {
         warenkorb2.add(apples);
 
 //      Users place an order
-        Order userLeonOrder1 = new Order("1", warenkorb1);
-        Order userBenOrder1 = new Order("2", warenkorb2);
+        Order userLeonOrder1 = new Order(warenkorb1);
+        Order userBenOrder1 = new Order(warenkorb2);
 
 //      Add orders to the database
         OrderRepo ordersList= new OrderRepo();
@@ -55,14 +53,12 @@ public class Main {
 
 //      Find an order with a given ID
         try {
-            System.out.println(ordersList.getById("2"));
+            System.out.println(ordersList.getById("10"));
         } catch (OrderNotFoundException e) {
             System.out.println(e.getMessage());;
         }
 
 //      get a list of all orders in the system
         System.out.println(ordersList.getOrders());
-
-
     }
 }
