@@ -32,4 +32,4 @@ Implementiere das Bestellsystem (**natürlich mit Tests!**).
 5.  Schaue dir an wie  [Klassendiagramme](https://de.wikipedia.org/wiki/Klassendiagramm)  in UML entworfen werden.
 6.  Nutze einen Optional für die get() Methoden
 
-![order-system](order-system.png "order-system")
+![order-system](./order-system.png "order-system")
