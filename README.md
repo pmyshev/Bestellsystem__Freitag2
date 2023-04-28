@@ -22,6 +22,8 @@ Implementiere das Bestellsystem (**natürlich mit Tests!**).
 3.  Erstelle eine Klasse  `ShopService`, über die wir eine neue  `Order`  aufgeben können.
 4.  `throw`  eine Exception, wenn nicht-existente Produkte bestellt werden
 
+![order-system](./order-system.png "order-system")
+
 # Aufgabe - Bonus
 
 1.  Nutze anstelle einer  `Product`  Klasse ein Interface und implementiere verschiedene Ausführungen
@@ -32,4 +34,4 @@ Implementiere das Bestellsystem (**natürlich mit Tests!**).
 5.  Schaue dir an wie  [Klassendiagramme](https://de.wikipedia.org/wiki/Klassendiagramm)  in UML entworfen werden.
 6.  Nutze einen Optional für die get() Methoden
 
-![order-system](./order-system.png "order-system")
+
