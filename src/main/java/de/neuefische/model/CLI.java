@@ -41,13 +41,13 @@ public class CLI {
                         " "};
 
         System.out.println();
-        for (int i=0; i <poem.length; i++){
+        for (String s : poem) {
             try {
                 Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            System.out.println( poem[i] );
+            System.out.println(s);
         }
     }
 }
