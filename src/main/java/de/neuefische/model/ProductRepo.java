@@ -3,6 +3,13 @@ package de.neuefische.model;
 import java.util.ArrayList;
 
 public class ProductRepo {
+    @Override
+    public String toString() {
+        return "ProductRepo{" +
+                "products=" + products +
+                '}';
+    }
+
     private ArrayList<Product> products = new ArrayList<>();
 
     public ArrayList<Product> getProducts() {

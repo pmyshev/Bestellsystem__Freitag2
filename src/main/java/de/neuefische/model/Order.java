@@ -16,6 +16,16 @@ public class Order {
         this.status = OrderStatus.RECEIVED;
     }
 
+    public Order() {
+        this.id = String.valueOf(initialId++);
+        this.status = OrderStatus.RECEIVED;
+    }
+
+    public Product addProduct (Product p){
+        products.add(p);
+        return p;
+    }
+
     public void setStatus(OrderStatus status) {
         this.status = status;
     }
